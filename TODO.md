@@ -69,8 +69,13 @@
 ##Définir la test suite
 
 ##Utiliser bottle en python
+* Faire un test rapide OK
 
-##A voir pour la restitution graphique
+##Restitution graphique
+
+* Essayer Google Chart : https://google-developers.appspot.com/chart/interactive/docs/gallery/bubblechart
+  * Ce qui se traduirait par une page html avec un peu de javascript qui charge les données (Api ?) et les restitue
 
 ##Gérer l'authentification pour l'api
+
 
