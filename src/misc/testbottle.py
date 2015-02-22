@@ -20,9 +20,8 @@ def hello():
     
 @app.route('/schema', apply=[sqlite_plugin])
 def schema(db):
-    con = sqlite3.connect(dbpath)
     ret = ""
-    for line in con.iterdump():
+    for line in db.iterdump():
         ret += '%s<br/>' % line
     return ret
 
