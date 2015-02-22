@@ -8,11 +8,13 @@
 * PUT /projects/<id_project:int> #Mise à jour du projet
 * DELETE /projects/<id_project:int> #Suppression du projet
 * GET /projects/<id_project:int>/impacts #Liste des Impacts concernés par un projet
+
 * GET /impacts/ #Liste des impacts
 * GET /impacts/ #Insert impact
 * GET /impacts/<id_impact:int> #Représentation de l'impact
 * PUT
 * DELETE
+
 * GET /groups
 * POST /groups
 * GET /groups/<id_group:int>
@@ -20,16 +22,20 @@
 * DELETE
 * GET /groups/<id_group:int>/projects #Liste des projects
 
-##Définir le modèle
+* GET /locations
+* GET /locations/<id_location:int>/impacts #Liste des impacts pour une location donnée
+
+##Définir le modèle relationnel
 ###Normes
 * tables et champs en minuscules
 * nom de la table au pluriel
 * une clef primaire unique autoincrémentée par table
 * la clef est id_<nom de la table au singulier>
+* Le modèle est défini par [src/sql/create.sql]
 ###projects
 - id_project
 - name
-- id_groupe
+- id_group
 - date_impact
 ###impacts
 - id_impact

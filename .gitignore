@@ -55,3 +55,7 @@ target/
 
 #Tmp text files
 *~
+
+#Datas
+src/datas/sqlite.db
+

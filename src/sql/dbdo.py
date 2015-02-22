@@ -18,7 +18,7 @@ def dumpsql(what):
             f.write('%s\n' % line)
 
 def loadsql(what):
-    con = sqlite3.connect('../sqlite.db')
+    con = sqlite3.connect(dbpath)
     f = open(what,'r')
     sql = f.read() # watch out for built-in `str`
     con.executescript(sql)
