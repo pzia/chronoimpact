@@ -71,7 +71,8 @@
 ##Technologies
 - Python + Bottle pour l'api rest
 - sqlite pour la db
-- datatables pour l'ihm
+- jtables pour l'ihm
+
 
 ##Définir une test suite
 * ce serait bien...
