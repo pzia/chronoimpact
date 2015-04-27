@@ -14,9 +14,9 @@ dbpath = '../datas/sqlite.db'
 apppath = '../app'
 fieldsRef = {
     'groups' : ['name', 'date_start', 'date_end'],
-    'projects' : ['name', 'id_group', "date_impact"],
+    'projects' : ['name', 'id_group', "date_impact", 'type'],
     'locations' : ['name'],
-    'impacts' : ['id_project', 'id_location', 'type', 'real', 'felt'],
+    'impacts' : ['id_project', 'id_location', 'type', 'real', 'felt', 'confirmation'],
 }
 
 #bottle app
