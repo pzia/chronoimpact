@@ -1,3 +1,4 @@
+<!DOCTYPE HTML>
 <html>
 <head>
 <title>Flac - Projets & Impacts</title>
@@ -108,7 +109,9 @@
                     title: 'Type de projet',
                     options: [{ Value: 'Transfert', DisplayText: 'Transfert' }, { Value: 'Technologie', DisplayText: 'Technologie' }, { Value: 'Nouveau', DisplayText: 'Nouveau projet' }, { Value: 'Renovation', DisplayText: 'Rénovation' }],
                 },                
-
+                comment: {
+                    title: 'Commentaire',
+                },
             }
         });
         $('#ProjectsContainer').jtable('load');

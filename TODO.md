@@ -9,7 +9,7 @@
 * une autre synthèse de "best practice" : https://blog.apigee.com/detail/restful_api_design_can_your_api_give_developers_just_the_information
 * la RFC pour les template d'url : https://tools.ietf.org/html/rfc6570
 
-###Project
+###Projects
 * GET /projects/ #Liste des projets
 * POST /projects/ #Insert project(s)
 * GET /projects/<id_project:int> #Représentation du projet
@@ -17,14 +17,14 @@
 * DELETE /projects/<id_project:int> #Suppression du projet
 * GET /projects/<id_project:int>/impacts #Liste des Impacts concernés par un projet
 
-###Impact
+###Impacts
 * GET /impacts/ #Liste des impacts
 * GET /impacts/ #Insert impact
 * GET /impacts/<id_impact:int> #Représentation de l'impact
 * PUT
 * DELETE
 
-#Group
+###Groups
 * GET /groups
 * POST /groups
 * GET /groups/<id_group:int>
@@ -32,7 +32,7 @@
 * DELETE
 * GET /groups/<id_group:int>/projects #Liste des projects
 
-#Location
+###Locations
 * GET /locations
 * GET /locations/<id_location:int>/impacts #Liste des impacts pour une location donnée
 
@@ -76,7 +76,7 @@
 
 ##Définir une test suite
 * ce serait bien...
-* 
+*
 
 ##Développer l'api en python
 * Utilisation de bottle : http://bottlepy.org/docs/dev/index.html
@@ -97,4 +97,3 @@
 
 ##Gérer l'authentification pour l'api
 * REST & Authentification : http://broadcast.oreilly.com/2009/12/principles-for-standardized-rest-authentication.html
-
